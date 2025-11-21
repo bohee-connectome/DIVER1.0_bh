@@ -1,0 +1,54 @@
+# Data files - too large, not in repo
+**/lmdb_output/
+**/data/
+*.lmdb/
+*.mdb
+*.tar.gz
+
+# Temporary files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (keep the directory structure but ignore actual log files)
+# Uncomment if you want to include log files:
+# **/logs/*.log
+# **/logs/*.txt
+
+# Raw data files
+*.edf
+*.rec
+*.txt
+!README.md
+!STRUCTURE.md
+!*_DATASET_INFO.md
+!*_complete.txt
+
+# Environment files
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
