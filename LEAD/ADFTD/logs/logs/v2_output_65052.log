@@ -1,0 +1,2089 @@
+==========================================
+ADFTD Preprocessing - Version 2 (v2)
+Shape: Multi-scale LEAD-style
+  - (19, 1, 500): 1sec at 500Hz
+  - (19, 2, 250): 2sec at 250Hz
+  - (19, 4, 125): 4sec at 125Hz
+  - 50% overlap for each scale
+==========================================
+Job started at: Tue 18 Nov 2025 07:47:32 PM KST
+Job ID: 65052
+Node: node4
+==========================================
+Python: /storage/connectome/bohee/DIVER_ADFTD/conda_env/bin/python
+Python 3.9.12
+python file running
+set main
+get_sample_list start
+[ADFTD] Loaded participants.tsv with 88 subjects
+[ADFTD] Found 89 .set files
+[ADFTD] Subject counts by group:
+  - HC (C): 29 subjects
+  - AD (A): 36 subjects
+  - FTD (F): 23 subjects (EXCLUDED from training)
+[ADFTD] Stratified split (seed=42):
+  - train: 38 subjects (HC:17, AD:21)
+  - val:   13 subjects (HC:6, AD:7)
+  - test:  14 subjects (HC:6, AD:8)
+Chunk 0: 4 files, 0.13 GB
+Chunk 1: 4 files, 0.13 GB
+Chunk 2: 4 files, 0.13 GB
+Chunk 3: 4 files, 0.14 GB
+Chunk 4: 4 files, 0.13 GB
+Chunk 5: 4 files, 0.14 GB
+Chunk 6: 4 files, 0.14 GB
+Chunk 7: 4 files, 0.13 GB
+Chunk 8: 3 files, 0.10 GB
+Chunk 9: 3 files, 0.12 GB
+Chunk 0: 2 files, 0.07 GB
+Chunk 1: 2 files, 0.07 GB
+Chunk 2: 2 files, 0.07 GB
+Chunk 3: 1 files, 0.04 GB
+Chunk 4: 1 files, 0.04 GB
+Chunk 5: 1 files, 0.03 GB
+Chunk 6: 1 files, 0.01 GB
+Chunk 7: 1 files, 0.03 GB
+Chunk 8: 1 files, 0.04 GB
+Chunk 9: 1 files, 0.03 GB
+Chunk 0: 2 files, 0.07 GB
+Chunk 1: 2 files, 0.06 GB
+Chunk 2: 2 files, 0.07 GB
+Chunk 3: 2 files, 0.06 GB
+Chunk 4: 1 files, 0.02 GB
+Chunk 5: 1 files, 0.03 GB
+Chunk 6: 1 files, 0.03 GB
+Chunk 7: 1 files, 0.03 GB
+Chunk 8: 1 files, 0.02 GB
+Chunk 9: 1 files, 0.03 GB
+check parallel
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-055/eeg/sub-055_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+[ADFTD] Loaded 65 subject labels (HC + AD only, FTD excluded)
+  - HC (0): 29 subjects
+  - AD (2): 36 subjects
+Initial sample count: 2881
+Total samples: 2881, QC-filtered samples: 0, Passed samples: 2881
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-051/eeg/sub-051_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2751
+Total samples: 2751, QC-filtered samples: 0, Passed samples: 2751
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-047/eeg/sub-047_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2825
+Total samples: 2825, QC-filtered samples: 0, Passed samples: 2825
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-059/eeg/sub-059_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2759
+Total samples: 2759, QC-filtered samples: 0, Passed samples: 2759
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-058/eeg/sub-058_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2665
+Total samples: 2665, QC-filtered samples: 0, Passed samples: 2665
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-043/eeg/sub-043_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2898
+Total samples: 2898, QC-filtered samples: 0, Passed samples: 2898
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-042/eeg/sub-042_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3409
+Total samples: 3409, QC-filtered samples: 0, Passed samples: 3409
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-049/eeg/sub-049_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2741
+Total samples: 2741, QC-filtered samples: 0, Passed samples: 2741
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-048/eeg/sub-048_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3542
+Total samples: 3542, QC-filtered samples: 0, Passed samples: 3542
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-052/eeg/sub-052_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2660
+Total samples: 2660, QC-filtered samples: 0, Passed samples: 2660
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-046/eeg/sub-046_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2650
+Total samples: 2650, QC-filtered samples: 0, Passed samples: 2650
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-061/eeg/sub-061_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2821
+Total samples: 2821, QC-filtered samples: 0, Passed samples: 2821
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-056/eeg/sub-056_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3094
+Total samples: 3094, QC-filtered samples: 0, Passed samples: 3094
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-065/eeg/sub-065_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3091
+Total samples: 3091, QC-filtered samples: 0, Passed samples: 3091
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-053/eeg/sub-053_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2793
+Total samples: 2793, QC-filtered samples: 0, Passed samples: 2793
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-063/eeg/sub-063_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2828
+Total samples: 2828, QC-filtered samples: 0, Passed samples: 2828
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-038/eeg/sub-038_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3126
+Total samples: 3126, QC-filtered samples: 0, Passed samples: 3126
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-033/eeg/sub-033_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2471
+Total samples: 2471, QC-filtered samples: 0, Passed samples: 2471
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-027/eeg/sub-027_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2903
+Total samples: 2903, QC-filtered samples: 0, Passed samples: 2903
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-008/eeg/sub-008_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2793
+Total samples: 2793, QC-filtered samples: 0, Passed samples: 2793
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-024/eeg/sub-024_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2682
+Total samples: 2682, QC-filtered samples: 0, Passed samples: 2682
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-014/eeg/sub-014_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3304
+Total samples: 3304, QC-filtered samples: 0, Passed samples: 3304
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-035/eeg/sub-035_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2646
+Total samples: 2646, QC-filtered samples: 0, Passed samples: 2646
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-021/eeg/sub-021_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3227
+Total samples: 3227, QC-filtered samples: 0, Passed samples: 3227
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-016/eeg/sub-016_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3444
+Total samples: 3444, QC-filtered samples: 0, Passed samples: 3444
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-006/eeg/sub-006_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2226
+Total samples: 2226, QC-filtered samples: 0, Passed samples: 2226
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-010/eeg/sub-010_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 4515
+Total samples: 4515, QC-filtered samples: 0, Passed samples: 4515
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-030/eeg/sub-030_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 1946
+Total samples: 1946, QC-filtered samples: 0, Passed samples: 1946
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-019/eeg/sub-019_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3217
+Total samples: 3217, QC-filtered samples: 0, Passed samples: 3217
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-036/eeg/sub-036_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2982
+Total samples: 2982, QC-filtered samples: 0, Passed samples: 2982
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-029/eeg/sub-029_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2588
+Total samples: 2588, QC-filtered samples: 0, Passed samples: 2588
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-017/eeg/sub-017_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2961
+Total samples: 2961, QC-filtered samples: 0, Passed samples: 2961
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-023/eeg/sub-023_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3015
+Total samples: 3015, QC-filtered samples: 0, Passed samples: 3015
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-015/eeg/sub-015_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3182
+Total samples: 3182, QC-filtered samples: 0, Passed samples: 3182
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-002/eeg/sub-002_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2772
+Total samples: 2772, QC-filtered samples: 0, Passed samples: 2772
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-031/eeg/sub-031_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 4044
+Total samples: 4044, QC-filtered samples: 0, Passed samples: 4044
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-020/eeg/sub-020_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3038
+Total samples: 3038, QC-filtered samples: 0, Passed samples: 3038
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-032/eeg/sub-032_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2987
+Total samples: 2987, QC-filtered samples: 0, Passed samples: 2987
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-050/eeg/sub-050_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2889
+Total samples: 2889, QC-filtered samples: 0, Passed samples: 2889
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-039/eeg/sub-039_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2996
+Total samples: 2996, QC-filtered samples: 0, Passed samples: 2996
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-054/eeg/sub-054_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2944
+Total samples: 2944, QC-filtered samples: 0, Passed samples: 2944
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-064/eeg/sub-064_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2968
+Total samples: 2968, QC-filtered samples: 0, Passed samples: 2968
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-041/eeg/sub-041_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3101
+Total samples: 3101, QC-filtered samples: 0, Passed samples: 3101
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-062/eeg/sub-062_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3189
+Total samples: 3189, QC-filtered samples: 0, Passed samples: 3189
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-012/eeg/sub-012_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3140
+Total samples: 3140, QC-filtered samples: 0, Passed samples: 3140
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-026/eeg/sub-026_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3206
+Total samples: 3206, QC-filtered samples: 0, Passed samples: 3206
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-013/eeg/sub-013_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2937
+Total samples: 2937, QC-filtered samples: 0, Passed samples: 2937
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-003/eeg/sub-003_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 1071
+Total samples: 1071, QC-filtered samples: 0, Passed samples: 1071
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-004/eeg/sub-004_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2471
+Total samples: 2471, QC-filtered samples: 0, Passed samples: 2471
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-034/eeg/sub-034_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3393
+Total samples: 3393, QC-filtered samples: 0, Passed samples: 3393
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-025/eeg/sub-025_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2440
+Total samples: 2440, QC-filtered samples: 0, Passed samples: 2440
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-044/eeg/sub-044_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3081
+Total samples: 3081, QC-filtered samples: 0, Passed samples: 3081
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-045/eeg/sub-045_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3015
+Total samples: 3015, QC-filtered samples: 0, Passed samples: 3015
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-060/eeg/sub-060_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2626
+Total samples: 2626, QC-filtered samples: 0, Passed samples: 2626
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-037/eeg/sub-037_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2716
+Total samples: 2716, QC-filtered samples: 0, Passed samples: 2716
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-040/eeg/sub-040_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 3556
+Total samples: 3556, QC-filtered samples: 0, Passed samples: 3556
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-057/eeg/sub-057_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2784
+Total samples: 2784, QC-filtered samples: 0, Passed samples: 2784
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-007/eeg/sub-007_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2688
+Total samples: 2688, QC-filtered samples: 0, Passed samples: 2688
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-005/eeg/sub-005_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2811
+Total samples: 2811, QC-filtered samples: 0, Passed samples: 2811
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-009/eeg/sub-009_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2143
+Total samples: 2143, QC-filtered samples: 0, Passed samples: 2143
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-022/eeg/sub-022_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2878
+Total samples: 2878, QC-filtered samples: 0, Passed samples: 2878
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-028/eeg/sub-028_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2889
+Total samples: 2889, QC-filtered samples: 0, Passed samples: 2889
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-011/eeg/sub-011_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2696
+Total samples: 2696, QC-filtered samples: 0, Passed samples: 2696
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/test_subject/sub-001/eeg/sub-001_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2094
+Total samples: 2094, QC-filtered samples: 0, Passed samples: 2094
+before read is ok
+/storage/connectome/bohee/DIVER_ADFTD/data/raw/sub-018/eeg/sub-018_task-eyesclosed_eeg.set
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.5 - 45 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.50
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 0.25 Hz)
+- Upper passband edge: 45.00 Hz
+- Upper transition bandwidth: 11.25 Hz (-6 dB cutoff frequency: 50.62 Hz)
+- Filter length: 3301 samples (6.602 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower transition bandwidth: 0.50 Hz
+- Upper transition bandwidth: 0.50 Hz
+- Filter length: 3301 samples (6.602 s)
+
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+Initial sample count: 2961
+Total samples: 2961, QC-filtered samples: 0, Passed samples: 2961
+Elapsed time: 422.45 sec
+Training complete! Created marker file at /scratch/connectome/bohee/DIVER_ADFTD/data/processed_v2/ADFTD_1.0_complete.txt
+==========================================
+Job finished at: Tue 18 Nov 2025 07:54:37 PM KST
+==========================================
+
+Expected output:
+- Save path: /scratch/connectome/bohee/DIVER_ADFTD/data/processed_v2
+- Shapes: (19,1,500), (19,2,250), (19,4,125)
+- Subjects: ~65 (HC: ~29, AD: ~36, FTD excluded)
+- Split: train ~38, val ~13, test ~14
+- More segments due to 50% overlap
+==========================================

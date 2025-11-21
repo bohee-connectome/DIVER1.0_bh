@@ -1,0 +1,3600 @@
+nohup: ignoring input
+Dataset split (Starting from Subject 85):
+  Train: 80 subjects (Skipped - already processed)
+  Val: 10 subjects (Subject 85-90)
+  Test: 10 subjects (Subject 91-100)
+  Total: 100 subjects to process
+Loaded 0 existing sample keys from LMDB
+
+============================================================
+Processing TRAIN split
+============================================================
+  Available channels in Subgroup1/1: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/1: 880 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/1: 880 epochs saved
+  Available channels in Subgroup1/2: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/2: 964 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/2: 964 epochs saved
+  Available channels in Subgroup1/3: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/3: 943 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/3: 943 epochs saved
+  Available channels in Subgroup1/4: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/4: 963 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/4: 963 epochs saved
+  Available channels in Subgroup1/5: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/5: 875 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/5: 875 epochs saved
+  Available channels in Subgroup1/6: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/6: 897 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/6: 897 epochs saved
+  Available channels in Subgroup1/7: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/7: 933 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/7: 933 epochs saved
+  Available channels in Subgroup1/8: ['LOC-A2', 'ROC-A1', 'C3-A2', 'O1-A2', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8', 'DC4', 'DC5', 'DC6', 'DC7']
+  ✗ Error processing Subgroup1/8: Missing channels
+    Required channel bases: ['F3', 'C3', 'O1', 'F4', 'C4', 'O2']
+    Found matches: ['F3 -> C3-A2', 'C3 -> O1-A2', 'O1 -> C4-A1', 'F4 -> O2-A1']
+    Missing: ['C4', 'O2']
+    Available channels: ['LOC-A2', 'ROC-A1', 'C3-A2', 'O1-A2', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8', 'DC4', 'DC5', 'DC6', 'DC7']
+  Available channels in Subgroup1/9: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/9: 969 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/9: 969 epochs saved
+  Available channels in Subgroup1/10: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/10: 842 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/10: 842 epochs saved
+  Available channels in Subgroup1/11: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'X7-X8', 'SpO2', 'DC8', 'DC1', 'DC2', 'DC3', 'DC5']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/11: 997 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/11: 997 epochs saved
+  Available channels in Subgroup1/12: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/12: 850 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/12: 850 epochs saved
+  Available channels in Subgroup1/13: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/13: 882 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/13: 882 epochs saved
+  Available channels in Subgroup1/14: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/14: 906 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/14: 906 epochs saved
+  Available channels in Subgroup1/15: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/15: 786 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/15: 786 epochs saved
+  Available channels in Subgroup1/16: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/16: 883 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/16: 883 epochs saved
+  Available channels in Subgroup1/17: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/17: 851 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/17: 851 epochs saved
+  Available channels in Subgroup1/18: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/18: 999 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/18: 999 epochs saved
+  Available channels in Subgroup1/19: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/19: 828 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/19: 828 epochs saved
+  Available channels in Subgroup1/20: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/20: 950 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/20: 950 epochs saved
+  Available channels in Subgroup1/21: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/21: 1054 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/21: 1054 epochs saved
+  Available channels in Subgroup1/22: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/22: 849 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/22: 849 epochs saved
+  Available channels in Subgroup1/23: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/23: 892 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/23: 892 epochs saved
+  Available channels in Subgroup1/24: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/24: 830 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/24: 830 epochs saved
+  Available channels in Subgroup1/25: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/25: 921 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/25: 921 epochs saved
+  Available channels in Subgroup1/26: ['LOC-A2', 'ROC-A1', 'F3-A2', 'C3-A2', 'O1-A2', 'F4-A1', 'C4-A1', 'O2-A1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SaO2', 'DC8']
+  Matched channels: {'F3': 'F3-A2', 'C3': 'C3-A2', 'O1': 'O1-A2', 'F4': 'F4-A1', 'C4': 'C4-A1', 'O2': 'O2-A1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/26: 1062 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/26: 1062 epochs saved
+  Available channels in Subgroup1/27: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/27: 918 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/27: 918 epochs saved
+  Available channels in Subgroup1/28: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/28: 882 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/28: 882 epochs saved
+  Available channels in Subgroup1/29: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/29: 912 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/29: 912 epochs saved
+  Available channels in Subgroup1/30: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/30: 882 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/30: 882 epochs saved
+  Available channels in Subgroup1/31: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/31: 877 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/31: 877 epochs saved
+  Available channels in Subgroup1/32: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/32: 1010 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/32: 1010 epochs saved
+  Available channels in Subgroup1/33: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/33: 920 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/33: 920 epochs saved
+  Available channels in Subgroup1/34: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/34: 871 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/34: 871 epochs saved
+  Available channels in Subgroup1/35: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/35: 788 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/35: 788 epochs saved
+  Available channels in Subgroup1/36: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/36: 987 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/36: 987 epochs saved
+  Available channels in Subgroup1/37: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/37: 806 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/37: 806 epochs saved
+  Available channels in Subgroup1/38: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/38: 932 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/38: 932 epochs saved
+  Available channels in Subgroup1/39: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/39: 900 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/39: 900 epochs saved
+  Available channels in Subgroup1/40: ['ROC', 'A1', 'LOC', 'A2', 'C4', 'O2', 'C3', 'O1', 'F4', 'F3', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'X7', 'X8', 'DC8', 'DC3', 'SaO2']
+  Matched channels: {'F3': 'F3', 'C3': 'C3', 'O1': 'O1', 'F4': 'F4', 'C4': 'C4', 'O2': 'O2'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/40: 875 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/40: 875 epochs saved
+  Available channels in Subgroup1/41: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/41: 974 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/41: 974 epochs saved
+  Available channels in Subgroup1/42: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/42: 812 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/42: 812 epochs saved
+  Available channels in Subgroup1/43: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/43: 747 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/43: 747 epochs saved
+  Available channels in Subgroup1/44: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/44: 932 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/44: 932 epochs saved
+  Available channels in Subgroup1/45: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/45: 906 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/45: 906 epochs saved
+  Available channels in Subgroup1/46: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/46: 863 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/46: 863 epochs saved
+  Available channels in Subgroup1/47: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/47: 838 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/47: 838 epochs saved
+  Available channels in Subgroup1/48: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/48: 981 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/48: 981 epochs saved
+  Available channels in Subgroup1/49: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/49: 793 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/49: 793 epochs saved
+  Available channels in Subgroup1/50: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/50: 905 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/50: 905 epochs saved
+  Available channels in Subgroup1/51: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/51: 856 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/51: 856 epochs saved
+  Available channels in Subgroup1/52: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/52: 912 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/52: 912 epochs saved
+  Available channels in Subgroup1/53: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/53: 910 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/53: 910 epochs saved
+  Available channels in Subgroup1/54: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/54: 814 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/54: 814 epochs saved
+  Available channels in Subgroup1/55: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/55: 879 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/55: 879 epochs saved
+  Available channels in Subgroup1/56: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC3', 'X7', 'X8', 'SpO2', 'DC8']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/56: 956 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/56: 956 epochs saved
+  Available channels in Subgroup1/57: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/57: 1007 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/57: 1007 epochs saved
+  Available channels in Subgroup1/58: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/58: 965 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/58: 965 epochs saved
+  Available channels in Subgroup1/59: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/59: 942 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/59: 942 epochs saved
+  Available channels in Subgroup1/60: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/60: 916 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/60: 916 epochs saved
+  Available channels in Subgroup1/61: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/61: 852 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/61: 852 epochs saved
+  Available channels in Subgroup1/62: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/62: 864 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/62: 864 epochs saved
+  Available channels in Subgroup1/63: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/63: 954 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/63: 954 epochs saved
+  Available channels in Subgroup1/64: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/64: 892 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/64: 892 epochs saved
+  Available channels in Subgroup1/65: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/65: 1014 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/65: 1014 epochs saved
+  Available channels in Subgroup1/66: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/66: 845 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/66: 845 epochs saved
+  Available channels in Subgroup1/67: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/67: 862 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/67: 862 epochs saved
+  Available channels in Subgroup1/68: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/68: 956 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/68: 956 epochs saved
+  Available channels in Subgroup1/69: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/69: 815 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/69: 815 epochs saved
+  Available channels in Subgroup1/70: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/70: 893 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/70: 893 epochs saved
+  Available channels in Subgroup1/71: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/71: 829 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/71: 829 epochs saved
+  Available channels in Subgroup1/72: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/72: 872 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/72: 872 epochs saved
+  Available channels in Subgroup1/73: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/73: 997 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/73: 997 epochs saved
+  Available channels in Subgroup1/74: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/74: 897 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/74: 897 epochs saved
+  Available channels in Subgroup1/75: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/75: 898 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/75: 898 epochs saved
+  Available channels in Subgroup1/76: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/76: 850 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/76: 850 epochs saved
+  Available channels in Subgroup1/77: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/77: 805 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/77: 805 epochs saved
+  Available channels in Subgroup1/78: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/78: 894 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/78: 894 epochs saved
+  Available channels in Subgroup1/79: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/79: 880 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/79: 880 epochs saved
+  Available channels in Subgroup1/80: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/80: 889 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/80: 889 epochs saved
+
+============================================================
+Processing VAL split
+============================================================
+  Available channels in Subgroup1/81: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/81: 911 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/81: 911 epochs saved
+  Available channels in Subgroup1/82: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/82: 882 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/82: 882 epochs saved
+  Available channels in Subgroup1/83: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/83: 925 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/83: 925 epochs saved
+  Available channels in Subgroup1/84: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/84: 963 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/84: 963 epochs saved
+  Available channels in Subgroup1/85: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/85: 896 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/85: 896 epochs saved
+  Available channels in Subgroup1/86: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/86: 964 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/86: 964 epochs saved
+  Available channels in Subgroup1/87: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/87: 926 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/87: 926 epochs saved
+  Available channels in Subgroup1/88: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/88: 1002 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/88: 1002 epochs saved
+  Available channels in Subgroup1/89: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/89: 1036 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/89: 1036 epochs saved
+  Available channels in Subgroup1/90: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/90: 933 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/90: 933 epochs saved
+
+============================================================
+Processing TEST split
+============================================================
+  Available channels in Subgroup1/91: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/91: 990 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/91: 990 epochs saved
+  Available channels in Subgroup1/92: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/92: 877 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/92: 877 epochs saved
+  Available channels in Subgroup1/93: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/93: 870 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/93: 870 epochs saved
+  Available channels in Subgroup1/94: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/94: 846 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/94: 846 epochs saved
+  Available channels in Subgroup1/95: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/95: 865 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/95: 865 epochs saved
+  Available channels in Subgroup1/96: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/96: 858 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/96: 858 epochs saved
+  Available channels in Subgroup1/97: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', '24', '25', '26', '27', '28', '29', 'DC01', '30', '31', 'SpO2', 'DC02', 'DC04']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/97: 912 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/97: 912 epochs saved
+  Available channels in Subgroup1/98: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/98: 899 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/98: 899 epochs saved
+  Available channels in Subgroup1/99: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/99: 835 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/99: 835 epochs saved
+  Available channels in Subgroup1/100: ['E1-M2', 'E2-M1', 'F3-M2', 'C3-M2', 'O1-M2', 'F4-M1', 'C4-M1', 'O2-M1', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'DC4', 'X7', 'X8', 'SpO2', 'DC8', 'DC7']
+  Matched channels: {'F3': 'F3-M2', 'C3': 'C3-M2', 'O1': 'O1-M2', 'F4': 'F4-M1', 'C4': 'C4-M1', 'O2': 'O2-M1'}
+NOTE: pick_channels() is a legacy function. New code should use inst.pick(...).
+EEG channel type selected for re-referencing
+Applying average reference.
+Applying a custom ('EEG',) reference.
+Filtering raw data in 1 contiguous segment
+Setting up band-pass filter from 0.3 - 35 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandpass filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 0.30
+- Lower transition bandwidth: 0.30 Hz (-6 dB cutoff frequency: 0.15 Hz)
+- Upper passband edge: 35.00 Hz
+- Upper transition bandwidth: 8.75 Hz (-6 dB cutoff frequency: 39.38 Hz)
+- Filter length: 2201 samples (11.005 s)
+
+Filtering raw data in 1 contiguous segment
+Setting up band-stop filter from 49 - 51 Hz
+
+FIR filter parameters
+---------------------
+Designing a one-pass, zero-phase, non-causal bandstop filter:
+- Windowed time-domain design (firwin) method
+- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation
+- Lower passband edge: 49.38
+- Lower transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 49.12 Hz)
+- Upper passband edge: 50.62 Hz
+- Upper transition bandwidth: 0.50 Hz (-6 dB cutoff frequency: 50.88 Hz)
+- Filter length: 1321 samples (6.605 s)
+
+  Processing Subgroup1/100: 861 epochs, 200 Hz -> 500 Hz
+  ✓ Completed Subgroup1/100: 861 epochs saved
+
+============================================================
+Preprocessing Complete!
+============================================================
+Train samples: 71032
+Val samples: 9438
+Test samples: 8813
+Total samples: 89283
+
+LMDB saved to: /pscratch/sd/b/boheelee/DIVER/ISRUC_preprocessing/lmdb_output/ISRUC_Sleep
+============================================================
