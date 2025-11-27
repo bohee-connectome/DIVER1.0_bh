@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CHB-MIT LMDB Migration Script: v1 -> v2-keymodified
+CHB-MIT LMDB Migration Script: v1 -> v2-keymodified (Memory-Optimized)
 
 This script migrates existing CHBMIT LMDB data from v1 format to v2-keymodified format
 to match ISRUC-Sleep data dictionary structure.
@@ -12,12 +12,18 @@ Changes:
 - Added ISRUC-compatible fields (Dataset, modality, task, etc.)
 - Preserved CHBMIT-specific fields (segment_id, is_oversampled, split)
 
+Memory Optimization:
+- Uses batch commits (1000 samples per transaction) to reduce memory usage
+- Suitable for login nodes with limited memory
+- Auto garbage collection between batches
+
 Usage:
     python migrate_chbmit_v1_to_v2.py --input_lmdb /path/to/old/CHBMIT_Seizure \
                                        --output_lmdb /path/to/new/CHBMIT_Seizure_v2
 
 Author: Claude + User
 Date: 2025-01-27
+Modified: 2025-01-27 (Memory optimization for login nodes)
 """
 
 import os
@@ -166,39 +172,54 @@ def migrate_lmdb(input_path, output_path, dry_run=False):
         'test': {'success': 0, 'error': 0}
     }
 
+    # Use batch commits to reduce memory usage
+    BATCH_SIZE = 1000  # Commit every 1000 samples
+
     with input_env.begin() as input_txn:
-        with output_env.begin(write=True) as output_txn:
-            for split in ['train', 'val', 'test']:
-                keys_list = dataset.get(split, [])
-                print(f"\n  Migrating {split.upper()} split ({len(keys_list)} samples)...")
+        for split in ['train', 'val', 'test']:
+            keys_list = dataset.get(split, [])
+            print(f"\n  Migrating {split.upper()} split ({len(keys_list)} samples)...")
 
-                for key_str in tqdm(keys_list, desc=f"  {split}"):
-                    try:
-                        # Read old format
-                        key = key_str.encode('utf-8')
-                        old_value = input_txn.get(key)
+            # Process in batches
+            for batch_start in range(0, len(keys_list), BATCH_SIZE):
+                batch_end = min(batch_start + BATCH_SIZE, len(keys_list))
+                batch_keys = keys_list[batch_start:batch_end]
 
-                        if old_value is None:
-                            print(f"    [WARNING] Key not found: {key_str}")
+                # Open new transaction for each batch
+                with output_env.begin(write=True) as output_txn:
+                    for key_str in tqdm(batch_keys, desc=f"  {split} [{batch_start:>6d}-{batch_end:>6d}]", leave=False):
+                        try:
+                            # Read old format
+                            key = key_str.encode('utf-8')
+                            old_value = input_txn.get(key)
+
+                            if old_value is None:
+                                print(f"    [WARNING] Key not found: {key_str}")
+                                migration_stats[split]['error'] += 1
+                                continue
+
+                            old_data = pickle.loads(old_value)
+
+                            # Convert to new format
+                            new_data = migrate_sample(old_data, key_str)
+
+                            # Write to output LMDB
+                            output_txn.put(key, pickle.dumps(new_data))
+
+                            migration_stats[split]['success'] += 1
+
+                        except Exception as e:
+                            print(f"    [ERROR] Failed to migrate {key_str}: {e}")
                             migration_stats[split]['error'] += 1
-                            continue
 
-                        old_data = pickle.loads(old_value)
+                # Transaction auto-commits when exiting 'with' block
+                # Free memory
+                import gc
+                gc.collect()
 
-                        # Convert to new format
-                        new_data = migrate_sample(old_data, key_str)
-
-                        # Write to output LMDB
-                        output_txn.put(key, pickle.dumps(new_data))
-
-                        migration_stats[split]['success'] += 1
-
-                    except Exception as e:
-                        print(f"    [ERROR] Failed to migrate {key_str}: {e}")
-                        migration_stats[split]['error'] += 1
-
-            # Write __keys__ to output LMDB
-            print("\n  Writing __keys__ to output LMDB...")
+        # Write __keys__ to output LMDB (separate transaction)
+        print("\n  Writing __keys__ to output LMDB...")
+        with output_env.begin(write=True) as output_txn:
             output_txn.put('__keys__'.encode(), pickle.dumps(dataset))
 
     # Close databases
