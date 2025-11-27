@@ -74,6 +74,7 @@ python check_lmdb_chbmit_v2-compatible.py --lmdb_path /path/to/CHBMIT_Seizure_v2
         "channel_names": list,    # 16 bipolar channel names
         "electrode_pairs": dict,  # Bipolar electrode pairs
         "electrode_positions": dict,  # 3D coordinates
+        "xyz_id": np.ndarray,     # (16, 3) positions ordered by channel_names
 
         # CHBMIT-specific fields
         "segment_id": str,        # e.g., "chb01_01_0"
@@ -153,6 +154,8 @@ CHBMIT_Seizure/
 | **preprocessing_chbmit_v2-keymodified.py** | v2 ✅ | Main preprocessing (ISRUC-compatible format) |
 | **check_lmdb_chbmit_v2-compatible.py** | v2 ✅ | Validator (supports v1 & v2, shows format version) |
 | **migrate_chbmit_v1_to_v2.py** | Migration ✅ | Convert existing v1 LMDB to v2 format |
+| **add_xyz_id_to_lmdb.py** | Utility ✅ | Add xyz_id field to existing v2 LMDB |
+| **validate_xyz_id.py** | Utility ✅ | Validate xyz_id alignment with channel_names |
 | preprocessing_chbmit.py | v1 | Legacy preprocessing (kept for reference) |
 | check_lmdb_chbmit.py | v1 | Legacy validator |
 

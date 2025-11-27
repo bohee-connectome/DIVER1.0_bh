@@ -376,27 +376,39 @@ elc_info = {
         "FP1": [x, y, z],
         "F7": [x, y, z],
         ...
-    }
+    },
+    "xyz_id": np.array (16, 3)  # channel_names 순서의 전극 3D 좌표
 }
 ```
 
-### LMDB 저장 구조
+### LMDB 저장 구조 (v2-keymodified)
 ```python
 # Key: "{patient}_{recording}_{segment_index}"
 key = "chb01_01_0"
 
 # Value: pickled dictionary
 value = {
-    "signal": np.array (16, 10, 500),  # float32
+    "sample": np.array (16, 10, 500),  # float32 (v1: "signal")
     "label": int (0 or 1),
-    "elc_info": dict,
-    "metadata": {
-        "patient_id": "chb01",
-        "recording_id": "chb01_01",
-        "segment_index": 0,
-        "is_oversampled": False,  # or True for s-add samples
+    "data_info": {  # v1: "metadata" + "elc_info" 통합
+        # ISRUC-compatible fields
+        "Dataset": "CHBMIT-Seizure",
+        "modality": "EEG",
+        "release": "1.0.0",
+        "subject_id": "chb01",
+        "task": "seizure-detection",
+        "resampling_rate": 500,
         "original_sampling_rate": 256,
-        "target_sampling_rate": 500
+        "segment_index": 0,
+        "start_time": 0.0,
+        "channel_names": list,  # 16 bipolar channels
+        "electrode_pairs": dict,  # Bipolar pairs
+        "electrode_positions": dict,  # 3D coordinates
+        "xyz_id": np.array (16, 3),  # channel_names 순서
+        # CHBMIT-specific fields
+        "segment_id": "chb01_01_0",
+        "split": "train",
+        "is_oversampled": False
     }
 }
 ```
